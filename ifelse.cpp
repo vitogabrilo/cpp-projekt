@@ -1,9 +1,19 @@
-int broj = 0;
+#include <iostream>
+using namespace std;
 
-if (broj < 0) {
-    cout << "Broj je negativan." << endl;
-} else if (broj == 0) {
-    cout << "Broj je nula." << endl;
-} else {
-    cout << "Broj je pozitivan." << endl;
+int main() {
+    int broj;
+
+    cout << "Unesi broj: ";
+    cin >> broj;
+
+    if (broj < 0) {
+        cout << "Broj je negativan." << endl;
+    } else if (broj == 0) {
+        cout << "Broj je nula." << endl;
+    } else {
+        cout << "Broj je pozitivan." << endl;
+    }
+
+    return 0;
 }
